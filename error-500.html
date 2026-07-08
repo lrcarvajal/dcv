@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Error del servicio</title>
+<style>
+body{margin:0;font-family:-apple-system,'Segoe UI',Arial,Helvetica,sans-serif;background:#fafafa;color:#333;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:20px;box-sizing:border-box}
+.card{position:relative;max-width:640px;width:100%;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.corner{position:absolute;width:26px;height:26px;border:4px solid #7C3AED;z-index:2}
+.corner.tl{top:16px;left:16px;border-right:none;border-bottom:none;border-radius:6px 0 0 0}
+.corner.br{bottom:16px;right:16px;border-left:none;border-top:none;border-radius:0 0 6px 0}
+.content{padding:52px 48px 40px}
+.logo{max-height:44px;margin-bottom:32px;display:block}
+h1{font-size:28px;font-weight:800;margin:0 0 12px;color:#0a0a0a;letter-spacing:-0.3px}
+p.subtitle{font-size:16px;margin:0 0 6px;color:#6b6b6b;line-height:1.5}
+hr{border:none;border-top:1px solid #ececec;margin:24px 0 24px}
+.causes-label{font-size:15px;font-weight:700;color:#0a0a0a;margin:0 0 16px}
+.bar{height:8px;background:linear-gradient(90deg,#4C1D95,#7C3AED,#A78BFA,#7C3AED,#4C1D95)}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="corner tl"></div>
+<div class="corner br"></div>
+<div class="content">
+<img class="logo" src="https://lrcarvajal.github.io/dcv/deposito_central_de_valores_chile_logo.jpg" alt="DCV">
+<h1>Estimado usuario</h1>
+<p class="subtitle">Estamos experimentando un problema en el servicio.</p>
+<p class="subtitle">Por favor reintente conectándose en unos minutos.</p>
+<hr>
+<p class="causes-label">Causas probables:</p>
+::CLOUDFLARE_ERROR_500S_BOX::
+</div>
+<div class="bar"></div>
+</div>
+</body>
+</html>
